@@ -25,7 +25,7 @@ const CONFIG_FILE = 'config.json';
 const PROGRESS_FILE = 'progress.json';
 let CONFIG = {
     EXECUTION_HOUR_MIN: 1,
-    EXECUTION_HOUR_MAX: 5,
+    EXECUTION_HOUR_MAX: 3,
     EXECUTION_MINUTE: 0,
     MIN_TRANSACTIONS: 108,
     MAX_TRANSACTIONS: 120,
