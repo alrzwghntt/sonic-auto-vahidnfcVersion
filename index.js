@@ -66,7 +66,7 @@ const { displayHeader } = require('./src/displayUtils');
 function amountToSend_rand(){
     let amountToSend;
 	
-	const amountInput = (Math.random() * (0.0030 - 0.00100) + 0.00100).toFixed(4);
+	const amountInput = (Math.random() * (0.0010 - 0.00090) + 0.00090).toFixed(4);
 console.log(`random amount to send:${amountInput}`);
     amountToSend = amountInput ? parseFloat(amountInput) : 0.001;
 
@@ -91,7 +91,7 @@ return amountToSend;
 
 function delay_rand(){
   const defaultDelay = 1000;
-  const delayInput = Math.floor(Math.random() * (20000 - 1000 + 1) + 1000);
+  const delayInput = Math.floor(Math.random() * (3500 - 1000 + 1) + 1000);
   const currentTime = new Date(); 
   console.log(`Date: ${currentTime}`);
 console.log(`random delay time in milliseconds: ${delayInput}`);
